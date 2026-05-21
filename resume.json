@@ -172,37 +172,84 @@
   ],
   "projects": [
     {
-      "name": "AnyMaps",
-      "description": "Open-source, decentralized mapping platform running on peer-to-peer technologies.",
+      "name": "site",
+      "description": "Personal website and digital presence — my little corner of cyberspace.",
       "highlights": [
-        "Built P2P communication layer using Waku protocol",
-        "Implemented IPFS-based distributed storage",
-        "Architected decentralized, censorship-resistant system"
+        "Self-hosted website deployed via IPFS and IPNS",
+        "Automated CI/CD pipeline with GitHub Actions"
       ],
-      "keywords": ["Decentralized", "P2P", "IPFS", "Waku", "Open Source"],
-      "url": "https://github.com/nipsysdev"
+      "keywords": ["TypeScript", "IPFS", "IPNS", "Self-hosted"],
+      "url": "https://github.com/nipsysdev/site"
     },
     {
-      "name": "dpulse",
-      "description": "Decentralized health monitoring system using Waku P2P messaging for status broadcasting.",
+      "name": "logos-storage-nim-bin",
+      "description": "Pre-built static binaries for Logos Storage, enabling easy integration without compilation.",
       "highlights": [
-        "Designed decentralized monitoring architecture",
-        "Implemented cryptographic signing for message authenticity",
-        "Built self-hosted infrastructure monitoring without centralized dependencies"
+        "Cross-platform binary distribution",
+        "Simplified Logos Storage integration"
       ],
-      "keywords": ["Decentralized", "P2P", "Waku", "Infrastructure", "Monitoring"],
-      "url": "https://github.com/nipsysdev/dpulse"
+      "keywords": ["Python", "Logos", "Storage", "Build Tools"],
+      "url": "https://github.com/nipsysdev/logos-storage-nim-bin"
     },
     {
-      "name": "@nipsys/lsd",
-      "description": "UI component library implementing the Logos Design System.",
+      "name": "AnyNode",
+      "description": "Rust-based node for serving PMTiles over the Logos Storage network.",
       "highlights": [
-        "Published npm package with TypeScript support",
-        "Implemented accessible UI components",
-        "Built documentation site"
+        "PMTiles serving over decentralized storage",
+        "Part of the AnyMaps decentralized mapping ecosystem"
       ],
-      "keywords": ["Frontend", "Accessibility", "Open Source", "TypeScript"],
-      "url": "https://github.com/nipsysdev/lsd"
+      "keywords": ["Rust", "PMTiles", "Logos", "Decentralized"],
+      "url": "https://github.com/AnyMaps/AnyNode"
+    },
+    {
+      "name": "storage-rust-bindings",
+      "description": "Rust bindings for Logos Storage, providing native Rust integration.",
+      "highlights": [
+        "Native Rust FFI bindings",
+        "Logos Storage network integration"
+      ],
+      "keywords": ["Rust", "FFI", "Logos", "Storage"],
+      "url": "https://github.com/nipsysdev/storage-rust-bindings"
+    },
+    {
+      "name": "localitysrv",
+      "description": "PMTiles HTTP server and Tor hidden service for serving world localities with privacy-first access.",
+      "highlights": [
+        "PMTiles HTTP server implementation",
+        "Tor hidden service for anonymous access"
+      ],
+      "keywords": ["Rust", "PMTiles", "Tor", "Privacy"],
+      "url": "https://github.com/nipsysdev/localitysrv"
+    },
+    {
+      "name": "Ash",
+      "description": "Hackathon project for P2P field coordination supporting activism and protest movements.",
+      "highlights": [
+        "Peer-to-peer coordination without centralized infrastructure",
+        "Censorship-resistant communication"
+      ],
+      "keywords": ["TypeScript", "P2P", "Activism", "Hackathon"],
+      "url": "https://github.com/nipsysdev/Ash"
+    },
+    {
+      "name": "localitysrv-waku",
+      "description": "Waku integration for localitysrv enabling P2P distribution of locality data.",
+      "highlights": [
+        "Waku protocol integration",
+        "Decentralized data distribution"
+      ],
+      "keywords": ["TypeScript", "Waku", "P2P", "Decentralized"],
+      "url": "https://github.com/nipsysdev/localitysrv-waku"
+    },
+    {
+      "name": "Ethos",
+      "description": "Web crawler and API for aggregating and serving digital rights organizations' publications.",
+      "highlights": [
+        "Automated crawling and aggregation",
+        "API for digital rights content access"
+      ],
+      "keywords": ["TypeScript", "Crawler", "API", "Digital Rights"],
+      "url": "https://github.com/nipsysdev/Ethos"
     }
   ],
   "meta": {

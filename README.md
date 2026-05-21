@@ -82,9 +82,14 @@ Senior Full-Stack Developer with 10+ years of experience in enterprise applicati
 
 ### Projects
 
-**AnyMaps** — Open-source, decentralized mapping platform (Waku/IPFS)  
-**dpulse** — Decentralized health monitoring with cryptographic signing  
-**@nipsys/lsd** — UI component library implementing Logos Design System
+**site** — Personal website deployed via IPFS/IPNS with automated CI/CD  
+**logos-storage-nim-bin** — Pre-built static binaries for Logos Storage  
+**AnyNode** — Rust node serving PMTiles over Logos Storage network  
+**storage-rust-bindings** — Rust bindings for Logos Storage  
+**localitysrv** — PMTiles HTTP server with Tor hidden service  
+**Ash** — P2P field coordination for activism (hackathon project)  
+**localitysrv-waku** — Waku integration for localitysrv P2P distribution  
+**Ethos** — Web crawler for digital rights organizations' publications
 
 ---
 
@@ -106,7 +111,7 @@ Senior Full-Stack Developer with 10+ years of experience in enterprise applicati
 
 - [GitHub](https://github.com/nipsysdev)
 - [LinkedIn](https://www.linkedin.com/in/xaviersaliniere)
-- [Personal Site](https://nipsys.eth.limo)
+- [Personal Site](https://nipsys.eth.link)
 
 ---
 
