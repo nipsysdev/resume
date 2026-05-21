@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: 'npm'
 
       - name: Install dependencies
@@ -26,6 +26,9 @@ jobs:
 
       - name: Install puppeteer
         run: npm install puppeteer
+
+      - name: Disable AppArmor namespace restriction
+        run: echo 0 | sudo tee /proc/sys/kernel/apparmor_restrict_unprivileged_userns
 
       - name: Validate resume
         run: npm run validate
