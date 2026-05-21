@@ -95,6 +95,7 @@ Senior Full-Stack Developer with 10+ years of experience in enterprise applicati
 | **Databases** | PostgreSQL, MongoDB, Elasticsearch, Redis, RabbitMQ |
 | **DevOps** | Docker, Kubernetes, CI/CD, Linux, IPFS, Decentralized Systems |
 | **Testing** | Vitest, Jest, Cypress, Testing Library, Code Review |
+| **AI & LLM** | AI Agent Development, LLM Prompt Engineering, Tool Use, Multi-Agent Orchestration |
 
 ---
 
@@ -114,7 +115,7 @@ Senior Full-Stack Developer with 10+ years of experience in enterprise applicati
 ### Languages
 
 - **French** — Native speaker
-- **English** — Full professional proficiency (IELTS 7.5: Reading 9.0, Listening 8.0)
+- **English** — Fluent (4 years working in Canada)
 
 ---
 

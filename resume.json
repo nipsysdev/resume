@@ -158,6 +158,15 @@
         "Testing Library",
         "Code Review"
       ]
+    },
+    {
+      "name": "AI & LLM Development",
+      "keywords": [
+        "AI Agent Development",
+        "LLM Prompt Engineering",
+        "Tool Use / Function Calling",
+        "Multi-Agent Orchestration"
+      ]
     }
   ],
   "languages": [
@@ -167,7 +176,7 @@
     },
     {
       "language": "English",
-      "fluency": "Full professional proficiency (IELTS 7.5)"
+      "fluency": "Fluent (4 years working in Canada)"
     }
   ],
   "projects": [
