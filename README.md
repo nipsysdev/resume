@@ -27,6 +27,8 @@ npm run validate
 npm run render
 ```
 
+Creates `resume.html`.
+
 ### Export to PDF
 
 Requires puppeteer/Chrome installed.
@@ -38,7 +40,7 @@ npm run export
 
 ### Serve locally
 
-Renders HTML and starts server at http://localhost:3000 (opens in browser).
+Renders to `index.html` and starts server at http://localhost:3000 (opens in browser).
 
 ```bash
 npm run serve

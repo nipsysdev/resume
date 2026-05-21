@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "validate": "resumed validate",
-    "render": "resumed render -o index.html",
+    "render": "resumed render -o resume.html",
     "export": "resumed export -o resume.pdf",
-    "serve": "npm run render && npx http-server -p 3000 -o"
+    "serve": "resumed render -o index.html && npx http-server -p 3000 -o"
   },
   "keywords": [],
   "author": "",
