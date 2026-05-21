@@ -94,7 +94,7 @@ Senior Full-Stack Developer with 10+ years of experience in enterprise applicati
 | **Backend** | Node.js, Python, Go, REST APIs, GraphQL |
 | **Databases** | PostgreSQL, MongoDB, Elasticsearch, Redis, RabbitMQ |
 | **DevOps** | Docker, Kubernetes, CI/CD, Linux, IPFS, Decentralized Systems |
-| **Testing** | Vitest, Jest, Cypress, Testing Library, Playwright, Unit Testing, End-to-End Testing |
+| **Testing** | Vitest, Jest, Cypress, Playwright, Unit Testing, End-to-End Testing |
 | **AI & LLM** | Self-hosted AI Agent Setup (OpenClaw, Hermes), LLM Prompt Engineering, AI Agent Skills Development, Multi-Agent Orchestration |
 
 ---

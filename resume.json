@@ -155,7 +155,6 @@
         "Vitest",
         "Jest",
         "Cypress",
-        "Testing Library",
         "Playwright",
         "Unit Testing",
         "End-to-End Testing"
