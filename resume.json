@@ -162,7 +162,7 @@
     {
       "name": "AI & LLM Development",
       "keywords": [
-        "AI Agent Development",
+        "Self-hosted AI Agent Setup (OpenClaw, Hermes)",
         "LLM Prompt Engineering",
         "AI Agent Framework Development",
         "Multi-Agent Orchestration"
