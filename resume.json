@@ -156,7 +156,9 @@
         "Jest",
         "Cypress",
         "Testing Library",
-        "Code Review"
+        "Playwright",
+        "Unit Testing",
+        "End-to-End Testing"
       ]
     },
     {
