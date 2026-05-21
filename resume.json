@@ -3,6 +3,7 @@
   "basics": {
     "name": "Xavier Saliniere",
     "label": "Senior Full-Stack Web Developer",
+    "image": "https://raw.githubusercontent.com/AI-1409/resume/main/photo.jpg",
     "email": "bonjour@xaviers.sh",
     "url": "https://nipsys.eth.link",
     "summary": "Senior Full-Stack Developer with 10+ years of experience in enterprise applications covering security, operations, and analytics domains. At Bell Canada's Operations Center, I built and maintained multiple platforms accelerating operational efficiency and decision-making, including security applications for WAF management, vulnerability tracking, phishing detection, and incident response. I am motivated by creating tools that help people make better decisions, faster. Aspiring to transition into cybersecurity and penetration testing.",
