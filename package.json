@@ -5,10 +5,9 @@
   "main": "index.js",
   "scripts": {
     "validate": "resumed validate",
-    "render": "resumed render -o resume.html",
+    "render": "resumed render -o index.html",
     "export": "resumed export -o resume.pdf",
-    "dev": "npm run render && serve -l 3000",
-    "start": "npm run dev"
+    "serve": "npm run render && npx http-server -p 3000 -o"
   },
   "keywords": [],
   "author": "",
@@ -16,8 +15,5 @@
   "dependencies": {
     "jsonresume-theme-even": "^0.26.1",
     "resumed": "^6.1.0"
-  },
-  "devDependencies": {
-    "serve": "^14.2.0"
   }
 }

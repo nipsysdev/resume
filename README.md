@@ -36,12 +36,12 @@ npm install puppeteer
 npm run export
 ```
 
-### Dev server
+### Serve locally
 
-Renders HTML and starts local server at http://localhost:3000
+Renders HTML and starts server at http://localhost:3000 (opens in browser).
 
 ```bash
-npm run dev
+npm run serve
 ```
 
 ## Profile
