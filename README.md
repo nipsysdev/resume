@@ -9,23 +9,31 @@ JSON Resume for full-stack web developer roles in Switzerland.
 
 ## Usage
 
+### Install dependencies
+
+```bash
+npm install
+```
+
 ### Validate JSON Resume
 
 ```bash
-npx resume validate
+npx resumed validate
 ```
 
-### Export to HTML/PDF
+### Render to HTML
 
 ```bash
-npx resume export index.html
-npx resume export resume.pdf
+npx resumed render -o resume.html
 ```
 
-### Serve locally
+### Export to PDF
+
+Requires puppeteer/Chrome installed.
 
 ```bash
-npx resume serve
+npm install puppeteer
+npx resumed export -o resume.pdf
 ```
 
 ## Profile

@@ -99,7 +99,7 @@
   "certificates": [
     {
       "name": "IELTS General Training",
-      "date": "2021-07",
+      "date": "2021-07-01",
       "issuer": "British Council",
       "url": "https://www.ielts.org"
     }
@@ -255,6 +255,7 @@
   "meta": {
     "canonical": "https://github.com/AI-1409/resume",
     "version": "v1.1.0",
-    "lastModified": "2026-05-21"
+    "lastModified": "2026-05-21",
+    "theme": "jsonresume-theme-even"
   }
 }
