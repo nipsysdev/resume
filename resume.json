@@ -1,0 +1,213 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.1/schema.json",
+  "basics": {
+    "name": "Xavier Saliniere",
+    "label": "Senior Full-Stack Web Developer",
+    "email": "bonjour@xaviers.sh",
+    "url": "https://nipsys.eth.link",
+    "summary": "Senior Full-Stack Developer with 10+ years of experience in enterprise applications covering security, operations, and analytics domains. At Bell Canada's Operations Center, I built and maintained multiple platforms accelerating operational efficiency and decision-making, including security applications for WAF management, vulnerability tracking, phishing detection, and incident response. I am motivated by creating tools that help people make better decisions, faster. Aspiring to transition into cybersecurity and penetration testing.",
+    "location": {
+      "city": "Lausanne",
+      "region": "Vaud",
+      "countryCode": "CH",
+      "address": "Switzerland"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "nipsysdev",
+        "url": "https://github.com/nipsysdev"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "xaviersaliniere",
+        "url": "https://www.linkedin.com/in/xaviersaliniere"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Bell Canada",
+      "position": "Senior Full-Stack Developer",
+      "startDate": "2022-01",
+      "summary": "Leading full-stack development for Bell Canada's Operations Center, building enterprise security and analytics platforms.",
+      "highlights": [
+        "Developed Insights Platform — AI-powered customer support analytics platform used by 1,100+ users",
+        "Built WAF Management Platform — Web Application Firewall policy configuration with side-by-side comparison, virtual server management, and real-time monitoring through telemetry integration",
+        "Created Vulnerability Management platform — Tracking and remediation platform for security vulnerabilities across Bell infrastructure",
+        "Implemented EDR platform — Event Detection and Response platform for real-time security incident coordination (now decommissioned)",
+        "Built Phisherman — Phishing detection and analysis platform integrating threat intelligence for proactive defense",
+        "Developed SLURP — Asset management system with barcode tracking and application status monitoring",
+        "Created UCDB — Unified Configuration Database platform with API documentation and field management"
+      ],
+      "url": "https://www.bell.ca"
+    },
+    {
+      "name": "Talan",
+      "position": "Senior Full-Stack Developer",
+      "startDate": "2022-01",
+      "summary": "Contracting firm assigned to Bell Canada Operations Center."
+    },
+    {
+      "name": "onepoint",
+      "position": "Lead Front-End Developer",
+      "startDate": "2019-09",
+      "endDate": "2022-01",
+      "summary": "Contracting firm assigned to Renault Digital."
+    },
+    {
+      "name": "Renault Digital",
+      "position": "Lead Front-End Web Developer",
+      "startDate": "2019-09",
+      "endDate": "2022-01",
+      "summary": "Led frontend development for PRISM — modular web application for automotive component definition and validation.",
+      "highlights": [
+        "Built modular architecture enabling different stakeholders (designers, engineers, procurement teams, compliance specialists) to view and validate components according to their specific needs",
+        "Established coding standards, architectural decisions, and team development practices",
+        "Reduced component validation time and resolved conflicts earlier in the design phase"
+      ]
+    },
+    {
+      "name": "Yanport",
+      "position": "Full-Stack Developer",
+      "startDate": "2016-01",
+      "endDate": "2019-09",
+      "summary": "Progressive full-stack development for real estate technology platform.",
+      "highlights": [
+        "Built platform aggregating property listings from multiple sources with advanced search and filtering",
+        "Completed AngularJS to Angular 5 migration implementing Progressive Web App capabilities and responsive design for mobile and tablet",
+        "Developed backend systems with real-time data updates, search optimization, and crawling infrastructure"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Lycée Le Rebours — Paris 13°",
+      "area": "Computer Science",
+      "studyType": "Licence STS",
+      "startDate": "2016",
+      "endDate": "2017"
+    },
+    {
+      "institution": "Lycée Léonard de Vinci de Melun",
+      "area": "Computer Science",
+      "studyType": "BTS SIO SLAM",
+      "startDate": "2014",
+      "endDate": "2016"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "IELTS General Training",
+      "date": "2021-07",
+      "issuer": "British Council",
+      "url": "https://www.ielts.org"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend Development",
+      "keywords": [
+        "Vue.js",
+        "React",
+        "Angular",
+        "TypeScript",
+        "JavaScript",
+        "Next.js",
+        "TailwindCSS",
+        "Nanostores"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "keywords": [
+        "Node.js",
+        "Python",
+        "Go",
+        "REST APIs",
+        "GraphQL"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": [
+        "PostgreSQL",
+        "MongoDB",
+        "Elasticsearch",
+        "Redis",
+        "RabbitMQ"
+      ]
+    },
+    {
+      "name": "DevOps & Infrastructure",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Linux",
+        "IPFS",
+        "Decentralized Systems"
+      ]
+    },
+    {
+      "name": "Testing & Quality",
+      "keywords": [
+        "Vitest",
+        "Jest",
+        "Cypress",
+        "Testing Library",
+        "Code Review"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Full professional proficiency (IELTS 7.5)"
+    }
+  ],
+  "projects": [
+    {
+      "name": "AnyMaps",
+      "description": "Open-source, decentralized mapping platform running on peer-to-peer technologies.",
+      "highlights": [
+        "Built P2P communication layer using Waku protocol",
+        "Implemented IPFS-based distributed storage",
+        "Architected decentralized, censorship-resistant system"
+      ],
+      "keywords": ["Decentralized", "P2P", "IPFS", "Waku", "Open Source"],
+      "url": "https://github.com/nipsysdev"
+    },
+    {
+      "name": "dpulse",
+      "description": "Decentralized health monitoring system using Waku P2P messaging for status broadcasting.",
+      "highlights": [
+        "Designed decentralized monitoring architecture",
+        "Implemented cryptographic signing for message authenticity",
+        "Built self-hosted infrastructure monitoring without centralized dependencies"
+      ],
+      "keywords": ["Decentralized", "P2P", "Waku", "Infrastructure", "Monitoring"],
+      "url": "https://github.com/nipsysdev/dpulse"
+    },
+    {
+      "name": "@nipsys/lsd",
+      "description": "UI component library implementing the Logos Design System.",
+      "highlights": [
+        "Published npm package with TypeScript support",
+        "Implemented accessible UI components",
+        "Built documentation site"
+      ],
+      "keywords": ["Frontend", "Accessibility", "Open Source", "TypeScript"],
+      "url": "https://github.com/nipsysdev/lsd"
+    }
+  ],
+  "meta": {
+    "canonical": "https://github.com/AI-1409/resume",
+    "version": "v1.1.0",
+    "lastModified": "2026-05-21"
+  }
+}
