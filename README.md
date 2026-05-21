@@ -95,7 +95,7 @@ Senior Full-Stack Developer with 10+ years of experience in enterprise applicati
 | **Databases** | PostgreSQL, MongoDB, Elasticsearch, Redis, RabbitMQ |
 | **DevOps** | Docker, Kubernetes, CI/CD, Linux, IPFS, Decentralized Systems |
 | **Testing** | Vitest, Jest, Cypress, Testing Library, Code Review |
-| **AI & LLM** | Self-hosted AI Agent Setup (OpenClaw, Hermes), LLM Prompt Engineering, AI Agent Framework Development, Multi-Agent Orchestration |
+| **AI & LLM** | Self-hosted AI Agent Setup (OpenClaw, Hermes), LLM Prompt Engineering, AI Agent Skills Development, Multi-Agent Orchestration |
 
 ---
 
