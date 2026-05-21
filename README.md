@@ -1,7 +1,5 @@
 # Xavier Saliniere — Resume
 
-JSON Resume for full-stack web developer roles in Switzerland.
-
 ## Files
 
 - `resume.json` — Machine-parseable JSON Resume (ATS-friendly)
