@@ -1,0 +1,48 @@
+name: Build Resume
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install puppeteer
+        run: npm install puppeteer
+
+      - name: Validate resume
+        run: npm run validate
+
+      - name: Create output directory
+        run: mkdir -p out
+
+      - name: Render HTML
+        run: npx resumed render --output out/resume.html
+
+      - name: Export PDF
+        run: npx resumed export --output out/resume.pdf
+
+      - name: Commit outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add out/
+          git diff --quiet && git diff --staged --quiet || git commit -m "build: generate resume.html and resume.pdf"
+          git push
