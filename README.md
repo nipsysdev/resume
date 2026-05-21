@@ -18,13 +18,13 @@ npm install
 ### Validate JSON Resume
 
 ```bash
-npx resumed validate
+npm run validate
 ```
 
 ### Render to HTML
 
 ```bash
-npx resumed render -o resume.html
+npm run render
 ```
 
 ### Export to PDF
@@ -33,7 +33,15 @@ Requires puppeteer/Chrome installed.
 
 ```bash
 npm install puppeteer
-npx resumed export -o resume.pdf
+npm run export
+```
+
+### Dev server
+
+Renders HTML and starts local server at http://localhost:3000
+
+```bash
+npm run dev
 ```
 
 ## Profile

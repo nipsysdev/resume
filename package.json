@@ -4,14 +4,20 @@
   "description": "JSON Resume for full-stack web developer roles in Switzerland.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "validate": "resumed validate",
+    "render": "resumed render -o resume.html",
+    "export": "resumed export -o resume.pdf",
+    "dev": "npm run render && serve -l 3000",
+    "start": "npm run dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "jsonresume-theme-even": "^0.26.1",
-    "jsonresume-theme-paper": "^0.5.0",
     "resumed": "^6.1.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
   }
 }
