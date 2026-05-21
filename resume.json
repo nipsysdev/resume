@@ -192,6 +192,16 @@
       "url": "https://github.com/nipsysdev/site"
     },
     {
+      "name": "lsd",
+      "description": "A shadcn-based implementation of the Logos Design System.",
+      "highlights": [
+        "Component library built on shadcn/ui patterns",
+        "Logos Design System implementation"
+      ],
+      "keywords": ["TypeScript", "React", "shadcn", "Design System"],
+      "url": "https://github.com/nipsysdev/lsd"
+    },
+    {
       "name": "logos-storage-nim-bin",
       "description": "Pre-built static binaries for Logos Storage, enabling easy integration without compilation.",
       "highlights": [

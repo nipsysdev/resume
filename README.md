@@ -102,6 +102,7 @@ Senior Full-Stack Developer with 10+ years of experience in enterprise applicati
 ### Projects
 
 **site** — Personal website deployed via IPFS/IPNS with automated CI/CD  
+**lsd** — shadcn-based implementation of the Logos Design System  
 **logos-storage-nim-bin** — Pre-built static binaries for Logos Storage  
 **AnyNode** — Rust node serving PMTiles over Logos Storage network  
 **storage-rust-bindings** — Rust bindings for Logos Storage  
