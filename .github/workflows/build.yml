@@ -40,22 +40,24 @@ jobs:
         run: npm run validate_fr
 
       - name: Render English HTML
-        run: npx resumed render --output out/Xavier-SALINIERE_resume.EN.html
+        run: npx resumed render -o out/Xavier-SALINIERE_resume.EN.html
 
       - name: Render French HTML
-        run: npx resumed render --resume resume.fr.json --output out/Xavier-SALINIERE_resume.FR.html
+        run: npx resumed render resume.fr.json -o out/Xavier-SALINIERE_resume.FR.html
 
       - name: Export English PDF
-        run: npx resumed export --output out/Xavier-SALINIERE_resume.EN.pdf
+        run: npx resumed export -o out/Xavier-SALINIERE_resume.EN.pdf
 
       - name: Export French PDF
-        run: npx resumed export --resume resume.fr.json --output out/Xavier-SALINIERE_resume.FR.pdf
+        run: npx resumed export resume.fr.json -o out/Xavier-SALINIERE_resume.FR.pdf
 
       - name: Commit outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          rm -f out/resume.html out/resume.pdf
           git add -f out/Xavier-SALINIERE_resume.EN.html out/Xavier-SALINIERE_resume.EN.pdf out/Xavier-SALINIERE_resume.FR.html out/Xavier-SALINIERE_resume.FR.pdf
+          git add -u out/
           git diff --quiet && git diff --staged --quiet || git commit -m "[skip ci] build: generate resume files (EN/FR)"
           git push
 
