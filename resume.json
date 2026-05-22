@@ -202,6 +202,17 @@
       "url": "https://github.com/nipsysdev/lsd"
     },
     {
+      "name": "AnyMaps",
+      "description": "Offline navigation with decentralized, privacy-preserving messaging and social layers.",
+      "highlights": [
+        "Offline-first mapping application",
+        "Decentralized architecture with privacy-preserving messaging",
+        "Social layers for collaborative navigation"
+      ],
+      "keywords": ["Rust", "Decentralized", "Privacy", "Mapping", "Offline"],
+      "url": "https://github.com/AnyMaps/AnyMaps"
+    },
+    {
       "name": "logos-storage-nim-bin",
       "description": "Pre-built static binaries for Logos Storage, enabling easy integration without compilation.",
       "highlights": [
