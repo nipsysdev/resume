@@ -30,12 +30,12 @@
       "name": "Bell Canada",
       "position": "Senior Full-Stack Developer",
       "startDate": "2022-01",
-      "summary": "Leading full-stack development for Bell Canada's Operations Center, building enterprise security and analytics platforms.",
+      "summary": "Full-stack development for Bell Canada's Operations Center, building enterprise security and analytics platforms.",
       "highlights": [
         "Developed Insights Platform — AI-powered customer support analytics platform used by 1,100+ users",
         "Built WAF Management Platform — Web Application Firewall policy configuration with side-by-side comparison, virtual server management, and real-time monitoring through telemetry integration",
         "Created Vulnerability Management platform — Tracking and remediation platform for security vulnerabilities across Bell infrastructure",
-        "Implemented EDR platform — Event Detection and Response platform for real-time security incident coordination (now decommissioned)",
+        "Implemented EDR platform — Event Detection and Response platform for real-time security incident coordination",
         "Built Phisherman — Phishing detection and analysis platform integrating threat intelligence for proactive defense",
         "Developed SLURP — Asset management system with barcode tracking and application status monitoring",
         "Created UCDB — Unified Configuration Database platform with API documentation and field management"
@@ -72,9 +72,9 @@
       "position": "Full-Stack Developer",
       "startDate": "2016-01",
       "endDate": "2019-09",
-      "summary": "Progressive full-stack development for real estate technology platform.",
+      "summary": "Full-stack development of web applications and services providing tools for real estate professionals.",
       "highlights": [
-        "Built platform aggregating property listings from multiple sources with advanced search and filtering",
+        "Built platform aggregating property listings from multiple sources with advanced search, filtering, and report and proposal generation",
         "Completed AngularJS to Angular 5 migration implementing Progressive Web App capabilities and responsive design for mobile and tablet",
         "Developed backend systems with real-time data updates, search optimization, and crawling infrastructure"
       ]
@@ -204,51 +204,30 @@
     {
       "name": "AnyMaps",
       "description": "Offline navigation with decentralized, privacy-preserving messaging and social layers.",
-      "highlights": [
-        "Offline-first mapping application",
-        "Decentralized architecture with privacy-preserving messaging",
-        "Social layers for collaborative navigation"
-      ],
       "keywords": ["Rust", "Decentralized", "Privacy", "Mapping", "Offline"],
       "url": "https://github.com/AnyMaps/AnyMaps"
     },
     {
       "name": "logos-storage-nim-bin",
       "description": "Pre-built static binaries for Logos Storage, enabling easy integration without compilation.",
-      "highlights": [
-        "Cross-platform binary distribution",
-        "Simplified Logos Storage integration"
-      ],
       "keywords": ["Python", "Logos", "Storage", "Build Tools"],
       "url": "https://github.com/nipsysdev/logos-storage-nim-bin"
     },
     {
       "name": "AnyNode",
       "description": "Rust-based node for serving PMTiles over the Logos Storage network.",
-      "highlights": [
-        "PMTiles serving over decentralized storage",
-        "Part of the AnyMaps decentralized mapping ecosystem"
-      ],
       "keywords": ["Rust", "PMTiles", "Logos", "Decentralized"],
       "url": "https://github.com/AnyMaps/AnyNode"
     },
     {
       "name": "storage-rust-bindings",
       "description": "Rust bindings for Logos Storage, providing native Rust integration.",
-      "highlights": [
-        "Native Rust FFI bindings",
-        "Logos Storage network integration"
-      ],
       "keywords": ["Rust", "FFI", "Logos", "Storage"],
       "url": "https://github.com/nipsysdev/storage-rust-bindings"
     },
     {
       "name": "localitysrv",
       "description": "PMTiles HTTP server and Tor hidden service for serving world localities with privacy-first access.",
-      "highlights": [
-        "PMTiles HTTP server implementation",
-        "Tor hidden service for anonymous access"
-      ],
       "keywords": ["Rust", "PMTiles", "Tor", "Privacy"],
       "url": "https://github.com/nipsysdev/localitysrv"
     },
@@ -275,10 +254,6 @@
     {
       "name": "Ethos",
       "description": "Web crawler and API for aggregating and serving digital rights organizations' publications.",
-      "highlights": [
-        "Automated crawling and aggregation",
-        "API for digital rights content access"
-      ],
       "keywords": ["TypeScript", "Crawler", "API", "Digital Rights"],
       "url": "https://github.com/nipsysdev/Ethos"
     }
