@@ -1,5 +1,7 @@
 # Xavier Saliniere — Resume
 
+> **CI-generated resume files:** [resume.html](out/resume.html) | [resume.pdf](out/resume.pdf)
+
 ## Files
 
 - `resume.json` — Machine-parseable JSON Resume (ATS-friendly)
