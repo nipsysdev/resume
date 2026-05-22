@@ -1,0 +1,263 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.1/schema.json",
+  "basics": {
+    "name": "Xavier Saliniere",
+    "label": "Développeur Full-Stack Senior",
+    "image": "https://raw.githubusercontent.com/nipsysdev/resume/refs/heads/main/photo.png",
+    "email": "bonjour@xaviers.sh",
+    "url": "https://nipsys.eth.link",
+    "summary": "Développeur Full-Stack senior comptant plus de 10 ans d'expérience dans les applications d'entreprise, notamment dans les domaines de la sécurité, des opérations et de l'analyse de données. Au Centre des opérations de Bell Canada, j'ai développé et assuré la maintenance de plusieurs plateformes visant à améliorer l'efficacité opérationnelle et à accélérer la prise de décision, notamment des applications de sécurité pour la gestion des pare-feu applicatifs (WAF), le suivi des vulnérabilités, la détection des tentatives d'hameçonnage et la gestion des incidents. Je suis motivé par la création d'outils qui aident les gens à prendre de meilleures décisions, plus rapidement. Je souhaite désormais m'orienter vers la cybersécurité et les tests d'intrusion.",
+    "location": {
+      "city": "Genève/Zurich/Lausanne",
+      "countryCode": "CH",
+      "address": "Suisse"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "nipsysdev",
+        "url": "https://github.com/nipsysdev"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "xaviersaliniere",
+        "url": "https://www.linkedin.com/in/xaviersaliniere"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Bell Canada",
+      "position": "Développeur Full-Stack Senior",
+      "startDate": "2022-01",
+      "summary": "Développement full-stack pour le Centre d'Opérations de Bell Canada, créant des plateformes d'entreprise de sécurité et d'analytique.",
+      "highlights": [
+        "Développement de la plateforme Insights — plateforme d'analyse du service client basée sur l'IA utilisée par plus de 1 100 utilisateurs",
+        "Création de la plateforme de gestion WAF — configuration des politiques de pare-feu d'applications Web avec comparaison côte à côte, gestion des serveurs virtuels et surveillance en temps réel grâce à l'intégration de la télémétrie",
+        "Création de la plateforme de gestion des vulnérabilités — Plateforme de suivi et de correction des failles de sécurité sur l'ensemble de l'infrastructure de Bell",
+        "Développement de la plateforme EDR — Plateforme de détection et de réponse aux événements pour la coordination en temps réel des incidents de sécurité",
+        "Développement de Phisherman — Plateforme de détection et d'analyse du phishing intégrant des informations sur les menaces pour une défense proactive",
+        "Développement de SLURP — Système de gestion des actifs avec suivi par code-barres et surveillance de l'état des applications",
+        "Création de la plateforme UCDB (Unified Configuration Database) avec documentation de l'API et gestion des champs"
+      ],
+      "url": "https://www.bell.ca"
+    },
+    {
+      "name": "Talan",
+      "position": "Développeur Full-Stack Senior",
+      "startDate": "2022-01",
+      "summary": "Entreprise sous-traitante. J'ai été assigné à Bell Canada."
+    },
+    {
+      "name": "onepoint",
+      "position": "Développeur Lead Front-End",
+      "startDate": "2019-09",
+      "endDate": "2022-01",
+      "summary": "Entreprise sous-traitante. J'ai été assigné à Renault Digital."
+    },
+    {
+      "name": "Renault Digital",
+      "position": "Développeur Lead Front-End",
+      "startDate": "2019-09",
+      "endDate": "2022-01",
+      "summary": "J'ai dirigé le développement front-end de PRISM, une application web modulaire destinée à la définition et à la validation de composants automobiles.",
+      "highlights": [
+        "Mise en place d'une architecture modulaire permettant aux différentes parties prenantes (concepteurs, ingénieurs, équipes chargées des achats, spécialistes de la conformité) de consulter et de valider les composants en fonction de leurs besoins spécifiques",
+        "Définition de normes de codage, de choix architecturaux et de pratiques de développement au sein des équipes",
+        "Réduction du temps nécessaire à la validation des composants et résolution des conflits dès les premières étapes de la phase de conception"
+      ]
+    },
+    {
+      "name": "Yanport",
+      "position": "Développeur Full-Stack",
+      "startDate": "2016-01",
+      "endDate": "2019-09",
+      "summary": "Développement d'une application et services web regroupant différents outils à destination des professionels de l'immobilier.",
+      "highlights": [
+        "Plateforme permettant de regrouper des annonces immobilières provenant de plusieurs sources, dotée de fonctions avancées de recherche, de filtrage et de génération de rapports, propositions",
+        "Migration d'AngularJS vers Angular 5 achevée, avec mise en œuvre des fonctionnalités d'application web progressive (PWA) et d'un design adaptatif pour les mobiles et les tablettes",
+        "Développement de systèmes backend avec mise à jour des données en temps réel, optimisation de la recherche et infrastructure de crawling"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Lycée Le Rebours — Paris 13°",
+      "area": "Informatique",
+      "studyType": "Licence STS",
+      "startDate": "2016",
+      "endDate": "2017"
+    },
+    {
+      "institution": "Lycée Léonard de Vinci de Melun",
+      "area": "Informatique",
+      "studyType": "BTS SIO SLAM",
+      "startDate": "2014",
+      "endDate": "2016"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "IELTS General Training",
+      "date": "2021-07-01",
+      "issuer": "British Council",
+      "url": "https://www.ielts.org"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Développement Frontend",
+      "keywords": [
+        "Vue.js",
+        "React",
+        "Angular",
+        "TypeScript",
+        "JavaScript",
+        "Next.js",
+        "TailwindCSS",
+        "Nanostores"
+      ]
+    },
+    {
+      "name": "Développement Backend",
+      "keywords": [
+        "Node.js",
+        "Python",
+        "Go",
+        "REST APIs",
+        "GraphQL"
+      ]
+    },
+    {
+      "name": "Bases de données",
+      "keywords": [
+        "PostgreSQL",
+        "MongoDB",
+        "Elasticsearch",
+        "Redis",
+        "RabbitMQ"
+      ]
+    },
+    {
+      "name": "DevOps & Infrastructure",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Linux",
+        "IPFS",
+        "Decentralized Systems"
+      ]
+    },
+    {
+      "name": "Assurance & Qualité",
+      "keywords": [
+        "Vitest",
+        "Jest",
+        "Cypress",
+        "Playwright",
+        "Unit Testing",
+        "End-to-End Testing"
+      ]
+    },
+    {
+      "name": "Développement IA & LLM",
+      "keywords": [
+        "Configuration d'agents IA auto-hébergés (OpenClaw, Hermes)",
+        "Ingénierie de prompts LLM",
+        "Développement de compétences pour agents IA",
+        "Orchestration multi-agents"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Natif"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "Courant (4 ans à travailler au Canada)"
+    }
+  ],
+  "projects": [
+    {
+      "name": "site",
+      "description": "Site web personnel et présence numérique",
+      "highlights": [
+        "Site web auto-hébergé déployé via IPFS et IPNS",
+        "Pipeline CI/CD automatisé avec GitHub Actions"
+      ],
+      "keywords": ["TypeScript", "IPFS", "IPNS", "Self-hosted"],
+      "url": "https://github.com/nipsysdev/site"
+    },
+    {
+      "name": "lsd",
+      "description": "Une implémentation du Logos Design System basée sur Shadcn.",
+      "keywords": ["TypeScript", "React", "shadcn", "Design System"],
+      "url": "https://github.com/nipsysdev/lsd"
+    },
+    {
+      "name": "AnyMaps",
+      "description": "Navigation hors ligne avec des couches de messagerie et de réseaux sociaux décentralisées et respectueuses de la vie privée.",
+      "keywords": ["Rust", "Decentralized", "Privacy", "Mapping", "Offline"],
+      "url": "https://github.com/AnyMaps/AnyMaps"
+    },
+    {
+      "name": "logos-storage-nim-bin",
+      "description": "Binaires statiques précompilés pour Logos Storage, permettant une intégration facile sans compilation.",
+      "keywords": ["Python", "Logos", "Storage", "Build Tools"],
+      "url": "https://github.com/nipsysdev/logos-storage-nim-bin"
+    },
+    {
+      "name": "AnyNode",
+      "description": "Nœud implémenté en Rust permettant de diffuser des PMTiles sur le réseau Logos Storage.",
+      "keywords": ["Rust", "PMTiles", "Logos", "Decentralized"],
+      "url": "https://github.com/AnyMaps/AnyNode"
+    },
+    {
+      "name": "storage-rust-bindings",
+      "description": "Liaisons FFI Rust pour Logos Storage, offrant une intégration native dans Rust.",
+      "keywords": ["Rust", "FFI", "Logos", "Storage"],
+      "url": "https://github.com/nipsysdev/storage-rust-bindings"
+    },
+    {
+      "name": "localitysrv",
+      "description": "Serveur HTTP PMTiles et service caché Tor permettant d'offrir aux utilisateurs du monde entier un accès privilégiant la confidentialité.",
+      "keywords": ["Rust", "PMTiles", "Tor", "Privacy"],
+      "url": "https://github.com/nipsysdev/localitysrv"
+    },
+    {
+      "name": "Ash",
+      "description": "Projet de hackathon visant à mettre en place une coordination de terrain entre pairs pour soutenir les mouvements militants et de protestation.",
+      "highlights": [
+        "Coordination entre pairs sans infrastructure centralisée",
+        "Communication résistante à la censure"
+      ],
+      "keywords": ["TypeScript", "P2P", "Activism", "Hackathon"],
+      "url": "https://github.com/nipsysdev/Ash"
+    },
+    {
+      "name": "localitysrv-waku",
+      "description": "Intégration de Waku à localitysrv pour permettre la diffusion P2P de données de localisation.",
+      "highlights": [
+        "Intégration du protocole Waku",
+        "Distribution décentralisée des données"
+      ],
+      "keywords": ["TypeScript", "Waku", "P2P", "Decentralized"],
+      "url": "https://github.com/nipsysdev/localitysrv-waku"
+    },
+    {
+      "name": "Ethos",
+      "description": "Robot d'indexation et API destinés à regrouper et à diffuser les publications des organismes de gestion des droits numériques.",
+      "keywords": ["TypeScript", "Crawler", "API", "Digital Rights"],
+      "url": "https://github.com/nipsysdev/Ethos"
+    }
+  ],
+  "meta": {
+    "canonical": "https://github.com/AI-1409/resume",
+    "version": "v1.1.0",
+    "lastModified": "2026-05-21",
+    "theme": "jsonresume-theme-even"
+  }
+}

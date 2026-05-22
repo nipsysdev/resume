@@ -5,9 +5,13 @@
   "main": "index.js",
   "scripts": {
     "validate": "resumed validate",
-    "render": "resumed render -o resume.html",
-    "export": "resumed export -o resume.pdf",
-    "serve": "resumed render -o index.html && npx http-server -p 3000 -o"
+    "validate_fr": "resumed validate --resume resume.fr.json",
+    "render": "resumed render -o index.html",
+    "render_fr": "resumed render --resume resume.fr.json -o index.fr.html",
+    "export": "resumed export -o out/Xavier-SALINIERE_resume.EN.pdf",
+    "export_fr": "resumed export --resume resume.fr.json -o out/Xavier-SALINIERE_resume.FR.pdf",
+    "serve": "resumed render -o index.html && npx http-server -p 3000 -o",
+    "serve_fr": "resumed render --resume resume.fr.json -o index.fr.html && npx http-server -p 3000 -o index.fr.html"
   },
   "keywords": [],
   "author": "",

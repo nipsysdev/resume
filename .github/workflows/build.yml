@@ -30,24 +30,33 @@ jobs:
       - name: Disable AppArmor namespace restriction
         run: echo 0 | sudo tee /proc/sys/kernel/apparmor_restrict_unprivileged_userns
 
-      - name: Validate resume
-        run: npm run validate
-
       - name: Create output directory
         run: mkdir -p out
 
-      - name: Render HTML
-        run: npx resumed render --output out/resume.html
+      - name: Validate English resume
+        run: npm run validate
 
-      - name: Export PDF
-        run: npx resumed export --output out/resume.pdf
+      - name: Validate French resume
+        run: npm run validate_fr
+
+      - name: Render English HTML
+        run: npx resumed render --output out/Xavier-SALINIERE_resume.EN.html
+
+      - name: Render French HTML
+        run: npx resumed render --resume resume.fr.json --output out/Xavier-SALINIERE_resume.FR.html
+
+      - name: Export English PDF
+        run: npx resumed export --output out/Xavier-SALINIERE_resume.EN.pdf
+
+      - name: Export French PDF
+        run: npx resumed export --resume resume.fr.json --output out/Xavier-SALINIERE_resume.FR.pdf
 
       - name: Commit outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f out/resume.html out/resume.pdf
-          git diff --quiet && git diff --staged --quiet || git commit -m "[skip ci] build: generate resume.html and resume.pdf"
+          git add -f out/Xavier-SALINIERE_resume.EN.html out/Xavier-SALINIERE_resume.EN.pdf out/Xavier-SALINIERE_resume.FR.html out/Xavier-SALINIERE_resume.FR.pdf
+          git diff --quiet && git diff --staged --quiet || git commit -m "[skip ci] build: generate resume files (EN/FR)"
           git push
 
       - name: Upload artifacts
