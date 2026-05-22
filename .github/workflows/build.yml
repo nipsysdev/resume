@@ -46,7 +46,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add out/resume.html out/resume.pdf
+          git add -f out/resume.html out/resume.pdf
           git diff --quiet && git diff --staged --quiet || git commit -m "[skip ci] build: generate resume.html and resume.pdf"
           git push
 
