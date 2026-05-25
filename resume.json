@@ -74,7 +74,7 @@
       "endDate": "2019-09",
       "summary": "Full-stack development of web applications and services providing tools for real estate professionals.",
       "highlights": [
-        "Built platform aggregating property listings from multiple sources with advanced search, filtering, and report and proposal generation",
+        "Built platform aggregating property listings from multiple sources with advanced search, filtering, report generation, and proposal creation",
         "Completed AngularJS to Angular 5 migration implementing Progressive Web App capabilities and responsive design for mobile and tablet",
         "Developed backend systems with real-time data updates, search optimization, and crawling infrastructure"
       ]
@@ -183,7 +183,7 @@
   "projects": [
     {
       "name": "site",
-      "description": "Personal website and digital presence — my little corner of cyberspace.",
+      "description": "Personal website and digital presence.",
       "highlights": [
         "Self-hosted website deployed via IPFS and IPNS",
         "Automated CI/CD pipeline with GitHub Actions"
@@ -209,13 +209,13 @@
     },
     {
       "name": "logos-storage-nim-bin",
-      "description": "Pre-built static binaries for Logos Storage, enabling easy integration without compilation.",
+      "description": "Pre-built static libraries enabling simple integration of Logos Storage into other projects.",
       "keywords": ["Python", "Logos", "Storage", "Build Tools"],
       "url": "https://github.com/nipsysdev/logos-storage-nim-bin"
     },
     {
       "name": "AnyNode",
-      "description": "Rust-based node for serving PMTiles over the Logos Storage network.",
+      "description": "Rust-based node serving AnyMaps navigation data in a decentralized manner.",
       "keywords": ["Rust", "PMTiles", "Logos", "Decentralized"],
       "url": "https://github.com/AnyMaps/AnyNode"
     },
@@ -227,7 +227,7 @@
     },
     {
       "name": "localitysrv",
-      "description": "PMTiles HTTP server and Tor hidden service for serving world localities with privacy-first access.",
+      "description": "Tor hidden service providing privacy-first access to PMTiles navigation data.",
       "keywords": ["Rust", "PMTiles", "Tor", "Privacy"],
       "url": "https://github.com/nipsysdev/localitysrv"
     },
@@ -235,7 +235,7 @@
       "name": "Ash",
       "description": "Hackathon project for P2P field coordination supporting activism and protest movements.",
       "highlights": [
-        "Peer-to-peer coordination without centralized infrastructure",
+        "Peer-to-peer coordination between users without centralized infrastructure",
         "Censorship-resistant communication"
       ],
       "keywords": ["TypeScript", "P2P", "Activism", "Hackathon"],
@@ -243,7 +243,7 @@
     },
     {
       "name": "localitysrv-waku",
-      "description": "Waku integration for localitysrv enabling P2P distribution of locality data.",
+      "description": "Waku integration for localitysrv enabling P2P distribution of navigation data.",
       "highlights": [
         "Waku protocol integration",
         "Decentralized data distribution"

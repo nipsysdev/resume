@@ -6,7 +6,7 @@
     "image": "https://raw.githubusercontent.com/nipsysdev/resume/refs/heads/main/photo.png",
     "email": "bonjour@xaviers.sh",
     "url": "https://nipsys.eth.link",
-    "summary": "Développeur Full-Stack senior comptant plus de 10 ans d'expérience dans les applications d'entreprise, notamment dans les domaines de la sécurité, des opérations et de l'analyse de données. Au Centre des opérations de Bell Canada, j'ai développé et assuré la maintenance de plusieurs plateformes visant à améliorer l'efficacité opérationnelle et à accélérer la prise de décision, notamment des applications de sécurité pour la gestion des pare-feu applicatifs (WAF), le suivi des vulnérabilités, la détection des tentatives d'hameçonnage et la gestion des incidents. Je suis motivé par la création d'outils qui aident les gens à prendre de meilleures décisions, plus rapidement. Je souhaite désormais m'orienter vers la cybersécurité et les tests d'intrusion.",
+    "summary": "Développeur Full-Stack senior comptant plus de 10 ans d'expérience dans les applications d'entreprise, notamment dans les domaines de la sécurité, des opérations et de l'analyse de données. Au Centre des opérations de Bell Canada, j'ai développé et assuré la maintenance de plusieurs plateformes visant à améliorer l'efficacité opérationnelle et à accélérer la prise de décision, notamment des applications de sécurité pour la gestion des pare-feu applicatifs (WAF), le suivi des vulnérabilités, la détection des tentatives d'hameçonnage et la gestion des incidents. Je suis motivé par la création d'outils qui aident les utilisateurs à prendre de meilleures décisions, plus rapidement. Je souhaite désormais m'orienter vers la cybersécurité et les tests d'intrusion.",
     "location": {
       "city": "Genève/Zurich/Lausanne",
       "countryCode": "CH",
@@ -34,9 +34,9 @@
       "highlights": [
         "Développement de la plateforme Insights — plateforme d'analyse du service client basée sur l'IA utilisée par plus de 1 100 utilisateurs",
         "Création de la plateforme de gestion WAF — configuration des politiques de pare-feu d'applications Web avec comparaison côte à côte, gestion des serveurs virtuels et surveillance en temps réel grâce à l'intégration de la télémétrie",
-        "Création de la plateforme de gestion des vulnérabilités — Plateforme de suivi et de correction des failles de sécurité sur l'ensemble de l'infrastructure de Bell",
-        "Développement de la plateforme EDR — Plateforme de détection et de réponse aux événements pour la coordination en temps réel des incidents de sécurité",
-        "Développement de Phisherman — Plateforme de détection et d'analyse du phishing intégrant des informations sur les menaces pour une défense proactive",
+        "Création de la plateforme de gestion des vulnérabilités — plateforme de suivi et de correction des failles de sécurité sur l'ensemble de l'infrastructure de Bell",
+        "Développement de la plateforme EDR — Endpoint Detection and Response (EDR) pour la coordination en temps réel des incidents de sécurité",
+        "Développement de Phisherman — Plateforme de détection et d'analyse de l'hameçonnage intégrant des informations sur les menaces pour une défense proactive",
         "Développement de SLURP — Système de gestion des actifs avec suivi par code-barres et surveillance de l'état des applications",
         "Création de la plateforme UCDB (Unified Configuration Database) avec documentation de l'API et gestion des champs"
       ],
@@ -74,7 +74,7 @@
       "endDate": "2019-09",
       "summary": "Développement d'une application et services web regroupant différents outils à destination des professionels de l'immobilier.",
       "highlights": [
-        "Plateforme permettant de regrouper des annonces immobilières provenant de plusieurs sources, dotée de fonctions avancées de recherche, de filtrage et de génération de rapports, propositions",
+        "Plateforme permettant de regrouper des annonces immobilières provenant de plusieurs sources, dotée de fonctions avancées de recherche, de filtrage et de génération de rapports et de propositions",
         "Migration d'AngularJS vers Angular 5 achevée, avec mise en œuvre des fonctionnalités d'application web progressive (PWA) et d'un design adaptatif pour les mobiles et les tablettes",
         "Développement de systèmes backend avec mise à jour des données en temps réel, optimisation de la recherche et infrastructure de crawling"
       ]
@@ -199,19 +199,19 @@
     },
     {
       "name": "AnyMaps",
-      "description": "Navigation hors ligne avec des couches de messagerie et de réseaux sociaux décentralisées et respectueuses de la vie privée.",
+      "description": "Navigation hors ligne couplée avec des fonctionnalités de type réseau social respectueuses de la vie privée.",
       "keywords": ["Rust", "Decentralized", "Privacy", "Mapping", "Offline"],
       "url": "https://github.com/AnyMaps/AnyMaps"
     },
     {
       "name": "logos-storage-nim-bin",
-      "description": "Binaires statiques précompilés pour Logos Storage, permettant une intégration facile sans compilation.",
+      "description": "Librairies statiques précompilées permettant une intégration simple de Logos Storage dans d'autres projets.",
       "keywords": ["Python", "Logos", "Storage", "Build Tools"],
       "url": "https://github.com/nipsysdev/logos-storage-nim-bin"
     },
     {
       "name": "AnyNode",
-      "description": "Nœud implémenté en Rust permettant de diffuser des PMTiles sur le réseau Logos Storage.",
+      "description": "Nœud implémenté en Rust permettant de diffuser les données de navigation d'AnyMaps de manière décentralisée.",
       "keywords": ["Rust", "PMTiles", "Logos", "Decentralized"],
       "url": "https://github.com/AnyMaps/AnyNode"
     },
@@ -223,15 +223,15 @@
     },
     {
       "name": "localitysrv",
-      "description": "Serveur HTTP PMTiles et service caché Tor permettant d'offrir aux utilisateurs du monde entier un accès privilégiant la confidentialité.",
+      "description": "Hidden service Tor permettant d'offrir aux utilisateurs un accès aux données de navigation PMTiles privilégiant la confidentialité.",
       "keywords": ["Rust", "PMTiles", "Tor", "Privacy"],
       "url": "https://github.com/nipsysdev/localitysrv"
     },
     {
       "name": "Ash",
-      "description": "Projet de hackathon visant à mettre en place une coordination de terrain entre pairs pour soutenir les mouvements militants et de protestation.",
+      "description": "Projet de hackathon visant à mettre en place une coordination de terrain entre utilisateurs pour soutenir les mouvements militants et de protestation.",
       "highlights": [
-        "Coordination entre pairs sans infrastructure centralisée",
+        "Coordination entre utilisateurs sans infrastructure centralisée",
         "Communication résistante à la censure"
       ],
       "keywords": ["TypeScript", "P2P", "Activism", "Hackathon"],
@@ -239,7 +239,7 @@
     },
     {
       "name": "localitysrv-waku",
-      "description": "Intégration de Waku à localitysrv pour permettre la diffusion P2P de données de localisation.",
+      "description": "Intégration de Waku à localitysrv pour permettre la diffusion P2P de données de navigation.",
       "highlights": [
         "Intégration du protocole Waku",
         "Distribution décentralisée des données"
@@ -249,7 +249,7 @@
     },
     {
       "name": "Ethos",
-      "description": "Robot d'indexation et API destinés à regrouper et à diffuser les publications des organismes de gestion des droits numériques.",
+      "description": "Robot d'indexation et API destinés à centraliser et rendre facile d'accès les publications des organismes de protection des droits numériques.",
       "keywords": ["TypeScript", "Crawler", "API", "Digital Rights"],
       "url": "https://github.com/nipsysdev/Ethos"
     }
