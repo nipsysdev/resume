@@ -182,86 +182,54 @@
   ],
   "projects": [
     {
-      "name": "site",
-      "description": "Personal website and digital presence.",
+      "name": "Ash",
+      "description": "P2P field coordination app supporting activism and protest movements with censorship-resistant communication.",
       "highlights": [
-        "Self-hosted website deployed via IPFS and IPNS",
-        "Automated CI/CD pipeline with GitHub Actions"
+        "Winner, RealFi Hack 2025 — Resilient Activist Technology track (240 participants)",
+        "Peer-to-peer coordination via Waku messaging network with Tor hidden service integration",
+        "Offline map downloads and group coordination without centralized infrastructure"
       ],
-      "keywords": ["TypeScript", "IPFS", "IPNS", "Self-hosted"],
+      "keywords": ["TypeScript", "Rust", "Tauri", "Waku", "Tor", "P2P"],
+      "url": "https://github.com/nipsysdev/Ash"
+    },
+    {
+      "name": "site",
+      "description": "Personal website and digital presence with real-time P2P status monitoring on static IPFS hosting.",
+      "highlights": [
+        "Real-time service health monitoring on statically-hosted IPFS site via Waku P2P network",
+        "Decentralized deployment pipeline: ENS → IPFS/IPNS with automated CI/CD",
+        "Terminal-style interface with command-line navigation and multilingual support"
+      ],
+      "keywords": ["TypeScript", "Next.js", "IPFS", "IPNS", "Waku", "Self-hosted"],
       "url": "https://github.com/nipsysdev/site"
     },
     {
       "name": "lsd",
-      "description": "A shadcn-based implementation of the Logos Design System.",
+      "description": "shadcn-based implementation of the Logos Design System — a minimalist, accessibility-first component library.",
       "highlights": [
-        "Component library built on shadcn/ui patterns",
-        "Logos Design System implementation"
+        "39 components with 185+ live examples across 15 releases",
+        "Built on React 19 and Radix UI primitives with Tailwind CSS 4",
+        "Published as @nipsys/lsd on npm with automated documentation"
       ],
-      "keywords": ["TypeScript", "React", "shadcn", "Design System"],
+      "keywords": ["TypeScript", "React", "shadcn", "Radix UI", "Design System"],
       "url": "https://github.com/nipsysdev/lsd"
     },
     {
-      "name": "AnyMaps",
-      "description": "Offline navigation with decentralized, privacy-preserving messaging and social layers.",
-      "keywords": ["Rust", "Decentralized", "Privacy", "Mapping", "Offline"],
-      "url": "https://github.com/AnyMaps/AnyMaps"
-    },
-    {
-      "name": "logos-storage-nim-bin",
-      "description": "Pre-built static libraries enabling simple integration of Logos Storage into other projects.",
-      "keywords": ["Python", "Logos", "Storage", "Build Tools"],
-      "url": "https://github.com/nipsysdev/logos-storage-nim-bin"
-    },
-    {
-      "name": "AnyNode",
-      "description": "Rust-based node serving AnyMaps navigation data in a decentralized manner.",
-      "keywords": ["Rust", "PMTiles", "Logos", "Decentralized"],
-      "url": "https://github.com/AnyMaps/AnyNode"
-    },
-    {
-      "name": "storage-rust-bindings",
-      "description": "Rust bindings for Logos Storage, providing native Rust integration.",
-      "keywords": ["Rust", "FFI", "Logos", "Storage"],
-      "url": "https://github.com/nipsysdev/storage-rust-bindings"
-    },
-    {
-      "name": "localitysrv",
-      "description": "Tor hidden service providing privacy-first access to PMTiles navigation data.",
-      "keywords": ["Rust", "PMTiles", "Tor", "Privacy"],
-      "url": "https://github.com/nipsysdev/localitysrv"
-    },
-    {
-      "name": "Ash",
-      "description": "Hackathon project for P2P field coordination supporting activism and protest movements.",
-      "highlights": [
-        "Peer-to-peer coordination between users without centralized infrastructure",
-        "Censorship-resistant communication"
-      ],
-      "keywords": ["TypeScript", "P2P", "Activism", "Hackathon"],
-      "url": "https://github.com/nipsysdev/Ash"
-    },
-    {
-      "name": "localitysrv-waku",
-      "description": "Waku integration for localitysrv enabling P2P distribution of navigation data.",
-      "highlights": [
-        "Waku protocol integration",
-        "Decentralized data distribution"
-      ],
-      "keywords": ["TypeScript", "Waku", "P2P", "Decentralized"],
-      "url": "https://github.com/nipsysdev/localitysrv-waku"
-    },
-    {
       "name": "Ethos",
-      "description": "Web crawler and API for aggregating and serving digital rights organizations' publications.",
-      "keywords": ["TypeScript", "Crawler", "API", "Digital Rights"],
+      "description": "Web crawler and API aggregating digital rights publications from organizations like EFF, Access Now, and Freedom of the Press Foundation.",
+      "highlights": [
+        "Aggregates content from 7 digital rights organizations in Markdown format",
+        "REST API designed for AI agent and algorithm consumption",
+        "Planned integration with Codex decentralized storage for immutable archival"
+      ],
+      "keywords": ["TypeScript", "Puppeteer", "SQLite", "Crawler", "API"],
       "url": "https://github.com/nipsysdev/Ethos"
     }
   ],
   "meta": {
     "canonical": "https://github.com/AI-1409/resume",
-    "version": "v1.1.0",
-    "lastModified": "2026-05-21",
+    "version": "v1.2.0",
+    "lastModified": "2026-05-29",
     "theme": "jsonresume-theme-even"
   }
 }
