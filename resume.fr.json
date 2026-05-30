@@ -8,7 +8,7 @@
     "url": "https://nipsys.eth.link",
     "summary": "Développeur Full-Stack senior comptant plus de 10 ans d'expérience dans les applications d'entreprise, notamment dans les domaines de la sécurité, des opérations et de l'analyse de données. Au Centre des opérations de Bell Canada, j'ai développé et assuré la maintenance de plusieurs plateformes visant à améliorer l'efficacité opérationnelle et à accélérer la prise de décision, notamment des applications de sécurité pour la gestion des pare-feu applicatifs (WAF), le suivi des vulnérabilités, la détection des tentatives d'hameçonnage et la gestion des incidents. Je suis motivé par la création d'outils qui aident les utilisateurs à prendre de meilleures décisions, plus rapidement. Je souhaite désormais m'orienter vers la cybersécurité et les tests d'intrusion.",
     "location": {
-      "city": "Genève/Zurich/Lausanne",
+      "city": "Genève",
       "countryCode": "CH",
       "address": "Suisse"
     },
@@ -215,7 +215,7 @@
   ],
   "meta": {
     "canonical": "https://github.com/AI-1409/resume",
-    "version": "v1.2.2",
+    "version": "v1.2.3",
     "lastModified": "2026-05-29",
     "theme": "jsonresume-theme-even"
   }
