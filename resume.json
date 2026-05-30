@@ -30,7 +30,7 @@
       "name": "Bell Canada",
       "position": "Senior Full-Stack Developer",
       "startDate": "2022-01",
-      "summary": "Full-stack development for Bell Canada's Operations Center, building enterprise security and analytics platforms.",
+      "summary": "Full-stack development for Bell Canada's Operations Center through Talan contracting, building enterprise security and analytics platforms.",
       "highlights": [
         "Developed Insights Platform — AI-powered customer support analytics platform used by 1,100+ users",
         "Built WAF Management Platform — Web Application Firewall policy configuration with side-by-side comparison, virtual server management, and real-time monitoring through telemetry integration",
@@ -41,12 +41,6 @@
         "Created UCDB — Unified Configuration Database platform with API documentation and field management"
       ],
       "url": "https://www.bell.ca"
-    },
-    {
-      "name": "Talan",
-      "position": "Senior Full-Stack Developer",
-      "startDate": "2022-01",
-      "summary": "Contracting firm. I was assigned to Bell Canada."
     },
     {
       "name": "Renault Digital",
@@ -221,7 +215,7 @@
   ],
   "meta": {
     "canonical": "https://github.com/AI-1409/resume",
-    "version": "v1.2.1",
+    "version": "v1.2.2",
     "lastModified": "2026-05-29",
     "theme": "jsonresume-theme-even"
   }
