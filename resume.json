@@ -49,18 +49,11 @@
       "summary": "Contracting firm. I was assigned to Bell Canada."
     },
     {
-      "name": "onepoint",
-      "position": "Lead Front-End Developer",
-      "startDate": "2019-09",
-      "endDate": "2022-01",
-      "summary": "Contracting firm. I was assigned to Renault Digital."
-    },
-    {
       "name": "Renault Digital",
       "position": "Lead Front-End Web Developer",
       "startDate": "2019-09",
       "endDate": "2022-01",
-      "summary": "Led frontend development for PRISM — modular web application for automotive component definition and validation.",
+      "summary": "Led frontend development for PRISM through onepoint contracting — modular web application for automotive component definition and validation.",
       "highlights": [
         "Built modular architecture enabling different stakeholders (designers, engineers, procurement teams, compliance specialists) to view and validate components according to their specific needs",
         "Established coding standards, architectural decisions, and team development practices",
@@ -228,7 +221,7 @@
   ],
   "meta": {
     "canonical": "https://github.com/AI-1409/resume",
-    "version": "v1.2.0",
+    "version": "v1.2.1",
     "lastModified": "2026-05-29",
     "theme": "jsonresume-theme-even"
   }
