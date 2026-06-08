@@ -6,7 +6,7 @@
     "image": "https://raw.githubusercontent.com/nipsysdev/resume/refs/heads/main/photo.png",
     "email": "bonjour@xaviers.sh",
     "url": "https://nipsys.eth.link",
-    "summary": "Développeur Full-Stack senior comptant plus de 10 ans d'expérience dans les applications d'entreprise, notamment dans les domaines de la sécurité, des opérations et de l'analyse de données. Au Centre des opérations de Bell Canada, j'ai développé et assuré la maintenance de plusieurs plateformes visant à améliorer l'efficacité opérationnelle et à accélérer la prise de décision, notamment des applications de sécurité pour la gestion des pare-feu applicatifs (WAF), le suivi des vulnérabilités, la détection des tentatives d'hameçonnage et la gestion des incidents. Je suis motivé par la création d'outils qui aident les utilisateurs à prendre de meilleures décisions, plus rapidement. Je souhaite désormais m'orienter vers la cybersécurité et les tests d'intrusion.",
+    "summary": "Développeur Full-Stack senior comptant plus de 10 ans d'expérience dans les applications d'entreprise couvrant la sécurité, les opérations et l'analytique. Au Centre des opérations de Bell Canada, j'ai développé et maintenu plusieurs plateformes de production pour la gestion WAF, le suivi des vulnérabilités, la détection de phishing, la réponse aux incidents et l'analytique du service client — incluant un agent IA propulsé par Google Gemini permettant l'interrogation en langage naturel de millions d'enregistrements d'interactions. Je suis motivé par la création d'outils qui aident les utilisateurs à prendre de meilleures décisions, plus rapidement.",
     "location": {
       "city": "Genève",
       "countryCode": "CH",
@@ -32,13 +32,13 @@
       "startDate": "2022-01",
       "summary": "Via l'entreprise sous-traitante Talan, développement full-stack pour le Centre d'Opérations de Bell Canada, créant des plateformes d'entreprise de sécurité et d'analytique.",
       "highlights": [
-        "Développement de la plateforme Insights — plateforme d'analyse du service client basée sur l'IA utilisée par plus de 1 100 utilisateurs",
-        "Création de la plateforme de gestion WAF — configuration des politiques de pare-feu d'applications Web avec comparaison côte à côte, gestion des serveurs virtuels et surveillance en temps réel grâce à l'intégration de la télémétrie",
-        "Création de la plateforme de gestion des vulnérabilités — plateforme de suivi et de correction des failles de sécurité sur l'ensemble de l'infrastructure de Bell",
-        "Développement de la plateforme EDR — Endpoint Detection and Response (EDR) pour la coordination en temps réel des incidents de sécurité",
-        "Développement de Phisherman — Plateforme de détection et d'analyse de l'hameçonnage intégrant des informations sur les menaces pour une défense proactive",
-        "Développement de SLURP — Système de gestion des actifs avec suivi par code-barres et surveillance de l'état des applications",
-        "Création de la plateforme UCDB (Unified Configuration Database) avec documentation de l'API et gestion des champs"
+        "Développement from scratch de l'agent INSIGHTS — agent conversationnel IA (Google ADK + Gemini) permettant l'interrogation en langage naturel de la base d'interactions du service client de Bell; développeur unique sur l'architecture, la conception d'outils, l'intégration API et le déploiement",
+        "Livraison end-to-end de la plateforme INSIGHTS (Vue 3 + Spring Boot + Elasticsearch) — rapports YoY, visualisation treemap, couche de cache MongoDB, suite de tests E2E Playwright, et intégration du chatbot IA; plateforme utilisée par 1 100+ utilisateurs",
+        "Conception du modèle de permissions RBAC spécifique au BFF (Spring Boot + Keycloak) pour INSIGHTS, définissant tous les mappings rôle/scope/groupe AD; propriétaire unique de la couche de permissions du service",
+        "Développement de l'UI WAF Management (Vue 3 + Vitest) — implémentation du monitoring browser New Relic avec configuration dynamique par environnement, module de gestion des tâches, et gestion des clusters de devices",
+        "Développement de la plateforme de gestion des vulnérabilités (Vue 2 + TypeScript) — refonte du workflow d'approval bundles, gestion des exceptions avec support de pièces jointes, et corrections du pipeline d'export; contributeur principal avec 500+ commits",
+        "Développement de la plateforme anti-phishing Phisherman (Vue 3 + Elastic APM + Sentry) — intégration des flux de threat intelligence Wildfire, Symantec Threat Explorer et URLScan.io dans l'UI analyste",
+        "Contribution aux plateformes de sécurité EDR et SLURP (Vue 2) — refonte de la gestion utilisateurs, filtres OS/type machine, intégration de données SentinelOne, et suivi d'actifs par code-barres"
       ],
       "url": "https://www.bell.ca"
     },
@@ -110,6 +110,9 @@
       "keywords": [
         "Node.js",
         "Python",
+        "Java",
+        "Spring Boot",
+        "Keycloak",
         "Go",
         "REST APIs",
         "GraphQL"
@@ -150,10 +153,12 @@
     {
       "name": "Développement IA & LLM",
       "keywords": [
-        "Configuration d'agents IA auto-hébergés (OpenClaw, Hermes)",
-        "Ingénierie de prompts LLM",
-        "Développement de compétences pour agents IA",
-        "Orchestration multi-agents"
+        "Google ADK (Agent Development Kit)",
+        "Gemini / google-genai",
+        "Architecture d'agents & utilisation d'outils LLM",
+        "FastAPI",
+        "Ingénierie de prompts",
+        "Streaming SSE"
       ]
     }
   ],
@@ -180,17 +185,6 @@
       "url": "https://github.com/nipsysdev/Ash"
     },
     {
-      "name": "site",
-      "description": "Site web personnel et présence numérique avec monitoring de statut P2P en temps réel sur hébergement statique IPFS.",
-      "highlights": [
-        "Monitoring de santé des services en temps réel sur site IPFS statique via réseau P2P Waku",
-        "Pipeline de déploiement décentralisé : ENS → IPFS/IPNS avec CI/CD automatisé",
-        "Interface style terminal avec navigation en ligne de commande et support multilingue"
-      ],
-      "keywords": ["TypeScript", "Next.js", "IPFS", "IPNS", "Waku", "Self-hosted"],
-      "url": "https://github.com/nipsysdev/site"
-    },
-    {
       "name": "lsd",
       "description": "Implémentation du Logos Design System basée sur shadcn — une bibliothèque de composants minimaliste et accessible.",
       "highlights": [
@@ -200,23 +194,12 @@
       ],
       "keywords": ["TypeScript", "React", "shadcn", "Radix UI", "Design System"],
       "url": "https://github.com/nipsysdev/lsd"
-    },
-    {
-      "name": "Ethos",
-      "description": "Robot d'indexation et API agrégeant les publications de défense des droits numériques d'organisations comme EFF, Access Now et Freedom of the Press Foundation.",
-      "highlights": [
-        "Agrège le contenu de 7 organisations de défense des droits numériques au format Markdown",
-        "API REST conçue pour la consommation par agents IA et algorithmes",
-        "Intégration prévue avec le stockage décentralisé Codex pour l'archivage immuable"
-      ],
-      "keywords": ["TypeScript", "Puppeteer", "SQLite", "Crawler", "API"],
-      "url": "https://github.com/nipsysdev/Ethos"
     }
   ],
   "meta": {
     "canonical": "https://github.com/AI-1409/resume",
-    "version": "v1.2.3",
-    "lastModified": "2026-05-29",
+    "version": "v1.3.0",
+    "lastModified": "2026-06-08",
     "theme": "jsonresume-theme-even"
   }
 }
