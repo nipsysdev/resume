@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         
     <title>Xavier Saliniere</title>
-    <meta name="description" content="Senior Full-Stack Developer with 10+ years of experience in enterprise applications covering security, operations, and analytics domains. At Bell Canada's Operations Center, I built and maintained multiple platforms accelerating operational efficiency and decision-making, including security applications for WAF management, vulnerability tracking, phishing detection, and incident response. I am motivated by creating tools that help people make better decisions, faster. Aspiring to transition into cybersecurity and penetration testing." />
+    <meta name="description" content="Senior Full-Stack Developer with 10+ years of experience in enterprise applications covering security, operations, and analytics domains. At Bell Canada's Operations Center, I built and maintained multiple production platforms for WAF management, vulnerability tracking, phishing detection, incident response, and customer service analytics — including an AI agent powered by Google Gemini enabling natural language querying over millions of interaction records. I am motivated by creating tools that help people make better decisions, faster." />
   
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" />
@@ -50,7 +50,7 @@ customElements.define('time-duration', TimeDuration)
     <header class="masthead">
       <img src="https://raw.githubusercontent.com/nipsysdev/resume/refs/heads/main/photo.png" alt="" />
       <div><h1>Xavier Saliniere</h1> <h2>Senior Full-Stack Web Developer</h2></div>
-      <article><p>Senior Full-Stack Developer with 10+ years of experience in enterprise applications covering security, operations, and analytics domains. At Bell Canada's Operations Center, I built and maintained multiple platforms accelerating operational efficiency and decision-making, including security applications for WAF management, vulnerability tracking, phishing detection, and incident response. I am motivated by creating tools that help people make better decisions, faster. Aspiring to transition into cybersecurity and penetration testing.</p></article>
+      <article><p>Senior Full-Stack Developer with 10+ years of experience in enterprise applications covering security, operations, and analytics domains. At Bell Canada's Operations Center, I built and maintained multiple production platforms for WAF management, vulnerability tracking, phishing detection, incident response, and customer service analytics — including an AI agent powered by Google Gemini enabling natural language querying over millions of interaction records. I am motivated by creating tools that help people make better decisions, faster.</p></article>
       <ul class="icon-list">
         
           <li>
@@ -103,7 +103,7 @@ customElements.define('time-duration', TimeDuration)
                         <p>Full-stack development for Bell Canada's Operations Center through Talan contracting, building enterprise security and analytics platforms.</p>
                         
                           <ul>
-                            <li><p>Developed Insights Platform — AI-powered customer support analytics platform used by 1,100+ users</p></li><li><p>Built WAF Management Platform — Web Application Firewall policy configuration with side-by-side comparison, virtual server management, and real-time monitoring through telemetry integration</p></li><li><p>Created Vulnerability Management platform — Tracking and remediation platform for security vulnerabilities across Bell infrastructure</p></li><li><p>Implemented EDR platform — Event Detection and Response platform for real-time security incident coordination</p></li><li><p>Built Phisherman — Phishing detection and analysis platform integrating threat intelligence for proactive defense</p></li><li><p>Developed SLURP — Asset management system with barcode tracking and application status monitoring</p></li><li><p>Created UCDB — Unified Configuration Database platform with API documentation and field management</p></li>
+                            <li><p>Built INSIGHTS Agent from scratch — AI conversational agent (Google ADK + Gemini) enabling natural language querying over Bell's customer service interaction database; sole developer across architecture, tool design, API integration, and deployment</p></li><li><p>Delivered INSIGHTS Platform end-to-end (Vue 3 + Spring Boot + Elasticsearch) — shipped YoY comparison reports, treemap visualization, MongoDB caching layer, Playwright E2E test suite, and AI chatbot integration; platform serves 1,100+ users</p></li><li><p>Designed BFF-specific RBAC permission model (Spring Boot + Keycloak) for INSIGHTS, defining all role/scope/AD group mappings; sole owner of the permission layer across the service</p></li><li><p>Built WAF Management UI (Vue 3 + Vitest) — implemented New Relic browser monitoring with dynamic per-environment configuration, task management module, and device cluster management</p></li><li><p>Developed Vulnerability Management platform (Vue 2 + TypeScript) — redesigned approval bundle workflow, built exception handling with file attachment support, and shipped export pipeline fixes; primary contributor with 500+ commits</p></li><li><p>Built Phisherman anti-phishing platform (Vue 3 + Elastic APM + Sentry) — integrated Wildfire, Symantec Threat Explorer, and URLScan.io threat intelligence feeds into the analyst UI</p></li><li><p>Contributed to EDR and SLURP security platforms (Vue 2) — user management redesign, OS/machine type filters, SentinelOne data integration, and barcode asset tracking</p></li>
                           </ul>
                         
                       </div>
@@ -231,31 +231,6 @@ customElements.define('time-duration', TimeDuration)
             
               <article>
                 <header>
-                  <h4><a href="https://github.com/nipsysdev/site">site</a></h4>
-                  <div class="meta">
-                    <div>
-                      
-                      
-                    </div>
-                    
-                    
-                  </div>
-                </header>
-                <p>Personal website and digital presence with real-time P2P status monitoring on static IPFS hosting.</p>
-                
-                  <ul>
-                    <li><p>Real-time service health monitoring on statically-hosted IPFS site via Waku P2P network</p></li><li><p>Decentralized deployment pipeline: ENS → IPFS/IPNS with automated CI/CD</p></li><li><p>Terminal-style interface with command-line navigation and multilingual support</p></li>
-                  </ul>
-                
-                
-                  <ul class="tag-list">
-                    <li>TypeScript</li><li>Next.js</li><li>IPFS</li><li>IPNS</li><li>Waku</li><li>Self-hosted</li>
-                  </ul>
-                
-              </article>
-            
-              <article>
-                <header>
                   <h4><a href="https://github.com/nipsysdev/lsd">lsd</a></h4>
                   <div class="meta">
                     <div>
@@ -275,31 +250,6 @@ customElements.define('time-duration', TimeDuration)
                 
                   <ul class="tag-list">
                     <li>TypeScript</li><li>React</li><li>shadcn</li><li>Radix UI</li><li>Design System</li>
-                  </ul>
-                
-              </article>
-            
-              <article>
-                <header>
-                  <h4><a href="https://github.com/nipsysdev/Ethos">Ethos</a></h4>
-                  <div class="meta">
-                    <div>
-                      
-                      
-                    </div>
-                    
-                    
-                  </div>
-                </header>
-                <p>Web crawler and API aggregating digital rights publications from organizations like EFF, Access Now, and Freedom of the Press Foundation.</p>
-                
-                  <ul>
-                    <li><p>Aggregates content from 7 digital rights organizations in Markdown format</p></li><li><p>REST API designed for AI agent and algorithm consumption</p></li><li><p>Planned integration with Codex decentralized storage for immutable archival</p></li>
-                  </ul>
-                
-                
-                  <ul class="tag-list">
-                    <li>TypeScript</li><li>Puppeteer</li><li>SQLite</li><li>Crawler</li><li>API</li>
                   </ul>
                 
               </article>
@@ -341,7 +291,7 @@ customElements.define('time-duration', TimeDuration)
                 <h4>Backend Development</h4>
                 
                   <ul class="tag-list">
-                    <li>Node.js</li><li>Python</li><li>Go</li><li>REST APIs</li><li>GraphQL</li>
+                    <li>Node.js</li><li>Python</li><li>Java</li><li>Spring Boot</li><li>Keycloak</li><li>Go</li><li>REST APIs</li><li>GraphQL</li>
                   </ul>
                 
               </div>
@@ -377,7 +327,7 @@ customElements.define('time-duration', TimeDuration)
                 <h4>AI & LLM Development</h4>
                 
                   <ul class="tag-list">
-                    <li>Self-hosted AI Agent Setup (OpenClaw, Hermes)</li><li>LLM Prompt Engineering</li><li>AI Agent Skills Development</li><li>Multi-Agent Orchestration</li>
+                    <li>Google ADK (Agent Development Kit)</li><li>Gemini / google-genai</li><li>LLM Tool Use & Agent Architecture</li><li>FastAPI</li><li>Prompt Engineering</li><li>SSE Streaming</li>
                   </ul>
                 
               </div>
